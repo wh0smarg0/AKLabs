@@ -15,3 +15,10 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+
+int Calculator::Double(double a)
+{
+    // Нове власне виправлення
+    int result = a * 2;
+    return result;
+}
